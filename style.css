@@ -8,7 +8,6 @@
     background-color: rgb(255, 106, 0);
     display: flex;
     flex-direction: row;
-    width 100%;
     height: 100px;
     justify-content: space-evenly;
 }
@@ -27,4 +26,16 @@
 .register{
     color: white;
     margin-top: 25px;
+}
+
+.media{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-size: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    gap: 10px;
 }
