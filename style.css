@@ -38,3 +38,13 @@
     padding-top: 8px;
     gap: 10px;
 }
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding-left: 5px;
+    justify-content: space-evenly;
+}
