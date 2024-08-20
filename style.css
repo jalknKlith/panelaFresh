@@ -66,3 +66,41 @@
     width: 100%;
     height: auto;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+    justify-content: space-evenly;
+
+}
+
+.envase{
+    width: 300px;
+    height: 300px;
+    border: solid 1px black;
+    margin: 20px;
+    text-align: center;
+}
+
+.envase img{
+    width: 100%;
+}
+
+.envase p{
+    background-color: chocolate;
+    color: white;
+    width: 80px;
+    height: 40px;
+    padding: 9px;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 60px;
+    
+}
