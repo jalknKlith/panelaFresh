@@ -167,29 +167,40 @@ a {
     height: 200px;
 }
 
-.definicion p{
-    height: 200px;
-    border: 10px solid black;
-    padding: 10px;
-    text-align: justify;
-    font-size: 20px;
-}
-
-@media (min-width: 500px){
+@media (max-width: 500px){
     .definicion p{
-        font-size: 17px;
+        height: 200px;
+        border: 10px solid black;
+        padding: 10px;
+        text-align: justify;
+        font-size: 15px;
     }
 }
 
-.slogan {
-    font-size: 40px;
-    text-align: center;
-    background-color: black;
-    color: white;
-  }
+@media (min-width: 501px){
+    .definicion p{
+        height: 200px;
+        border: 10px solid black;
+        padding: 10px;
+        text-align: justify;
+        font-size: 30px;
+    }
+}
 
 @media (max-width: 500px) {
     .slogan {
-      font-size: 30px;
+        font-size: 40px;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+}
+
+@media (min-width: 501px) {
+    .slogan {
+        font-size: 30px;
+        text-align: center;
+        background-color: black;
+        color: white;
     }
 }
