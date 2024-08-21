@@ -118,16 +118,14 @@ a {
 .video{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    width: 100%;
+    width: 100vw;  
 }
 
-.video p{
+.text p{
     border: 10px solid rgb(0, 0, 0);
     padding: 10px;
     text-align: justify;
     font-size: 20px;
-    width: 100%;
 }
 
 .italica{
