@@ -163,13 +163,6 @@ a {
     flex-direction: row;
 }
 
-.slogan{
-    background-color: black;
-    color: white;
-    font-size: 40px;
-    text-align: center;
-}
-
 .definicion img{
     height: 200px;
 }
@@ -180,4 +173,22 @@ a {
     padding: 10px;
     text-align: justify;
     font-size: 20px;
+}
+
+@media (max-width: 500px) {
+    .slogan {
+      font-size: 20px;
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+}
+  
+@media (min-width: 501px) {
+    .slogan {
+      font-size: 40px;
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
 }
