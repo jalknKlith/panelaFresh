@@ -177,7 +177,7 @@ a {
 
 @media (max-width: 500px) {
     .slogan {
-      font-size: 40px;
+      font-size: 30px;
       text-align: center;
       background-color: black;
       color: white;
@@ -186,7 +186,7 @@ a {
   
 @media (min-width: 501px) {
     .slogan {
-      font-size: 30px;
+      font-size: 40px;
       text-align: center;
       background-color: black;
       color: white;
