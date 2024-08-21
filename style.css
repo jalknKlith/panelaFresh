@@ -175,7 +175,7 @@ a {
     font-size: 20px;
 }
 
-@media (max-width: 500px){
+@media (min-width: 500px){
     .definicion p{
         font-size: 17px;
     }
