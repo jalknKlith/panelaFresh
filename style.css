@@ -204,3 +204,13 @@ a {
         color: white;
     }
 }
+
+.frase p{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align:center;
+    height: 50px;
+    padding-top: 20px;
+}
+
